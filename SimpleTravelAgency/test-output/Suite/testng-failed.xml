@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="ExtentReports.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test thread-count="2" parallel="classes" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="SimpleTravelAgency.VerifyDestinationPage">
+        <methods>
+          <include name="testDestinationLinkOpensNewTab"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- SimpleTravelAgency.VerifyDestinationPage -->
+      <class name="SimpleTravelAgency.VerifyHomePage">
+        <methods>
+          <include name="testDestinationLinkOpensNewTab"/>
+          <include name="testTotalCostFormat"/>
+          <include name="closeBrowser"/>
+          <include name="captureScreenshotinFailure"/>
+          <include name="verifyHomePageTitle"/>
+          <include name="objectClear"/>
+          <include name="createPomObject"/>
+          <include name="purchaseTicket"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- SimpleTravelAgency.VerifyHomePage -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
