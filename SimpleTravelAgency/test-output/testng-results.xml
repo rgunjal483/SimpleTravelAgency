@@ -1,99 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-16T01:39:52 IST" name="Suite" finished-at="2024-02-16T01:40:45 IST" duration-ms="53584">
+  <suite started-at="2024-02-16T02:04:07 IST" name="Suite" finished-at="2024-02-16T02:04:26 IST" duration-ms="19221">
     <groups>
     </groups>
-    <test started-at="2024-02-16T01:39:52 IST" name="Test" finished-at="2024-02-16T01:40:45 IST" duration-ms="53584">
-      <class name="SimpleTravelAgency.VerifyDestinationPage">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SimpleTravelAgency.VerifyDestinationPage@52bf72b5]" started-at="2024-02-16T01:40:12 IST" name="setUp" finished-at="2024-02-16T01:40:27 IST" duration-ms="15356" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testDestinationLinkOpensNewTab()[pri:0, instance:SimpleTravelAgency.VerifyDestinationPage@52bf72b5]" started-at="2024-02-16T01:40:28 IST" name="testDestinationLinkOpensNewTab" finished-at="2024-02-16T01:40:32 IST" duration-ms="4467" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDestinationLinkOpensNewTab -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SimpleTravelAgency.VerifyDestinationPage@52bf72b5]" started-at="2024-02-16T01:40:32 IST" name="tearDown" finished-at="2024-02-16T01:40:35 IST" duration-ms="2529" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- SimpleTravelAgency.VerifyDestinationPage -->
+    <test started-at="2024-02-16T02:04:07 IST" name="Test" finished-at="2024-02-16T02:04:26 IST" duration-ms="19221">
       <class name="SimpleTravelAgency.VerifyHomePage">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SimpleTravelAgency.VerifyHomePage@16293aa2]" started-at="2024-02-16T01:39:52 IST" name="setUp" finished-at="2024-02-16T01:40:12 IST" duration-ms="20177" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SimpleTravelAgency.VerifyHomePage@2a798d51]" started-at="2024-02-16T02:04:07 IST" name="setUp" finished-at="2024-02-16T02:04:19 IST" duration-ms="11920" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="createPomObject()[pri:0, instance:SimpleTravelAgency.VerifyHomePage@16293aa2]" started-at="2024-02-16T01:40:35 IST" name="createPomObject" finished-at="2024-02-16T01:40:35 IST" duration-ms="225" status="PASS">
+        <test-method is-config="true" signature="createPomObject()[pri:0, instance:SimpleTravelAgency.VerifyHomePage@2a798d51]" started-at="2024-02-16T02:04:19 IST" name="createPomObject" finished-at="2024-02-16T02:04:19 IST" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPomObject -->
-        <test-method signature="verifyHomePageTitle()[pri:1, instance:SimpleTravelAgency.VerifyHomePage@16293aa2]" started-at="2024-02-16T01:40:35 IST" name="verifyHomePageTitle" finished-at="2024-02-16T01:40:35 IST" duration-ms="212" status="PASS">
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:SimpleTravelAgency.VerifyHomePage@2a798d51]" started-at="2024-02-16T02:04:19 IST" name="verifyHomePageTitle" finished-at="2024-02-16T02:04:19 IST" duration-ms="158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitle -->
-        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:SimpleTravelAgency.VerifyHomePage@16293aa2]" started-at="2024-02-16T01:40:35 IST" name="captureScreenshotinFailure" finished-at="2024-02-16T01:40:35 IST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:SimpleTravelAgency.VerifyHomePage@2a798d51]" started-at="2024-02-16T02:04:19 IST" name="captureScreenshotinFailure" finished-at="2024-02-16T02:04:19 IST" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyHomePageTitle status=SUCCESS method=VerifyHomePage.verifyHomePageTitle()[pri:1, instance:SimpleTravelAgency.VerifyHomePage@16293aa2] output={null}]]]>
+                <![CDATA[[TestResult name=verifyHomePageTitle status=SUCCESS method=VerifyHomePage.verifyHomePageTitle()[pri:1, instance:SimpleTravelAgency.VerifyHomePage@2a798d51] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureScreenshotinFailure -->
-        <test-method signature="testDestinationLinkOpensNewTab()[pri:2, instance:SimpleTravelAgency.VerifyHomePage@16293aa2]" started-at="2024-02-16T01:40:35 IST" name="testDestinationLinkOpensNewTab" finished-at="2024-02-16T01:40:37 IST" duration-ms="2209" status="PASS">
+        <test-method signature="testDestinationLinkOpensNewTab()[pri:2, instance:SimpleTravelAgency.VerifyHomePage@2a798d51]" started-at="2024-02-16T02:04:19 IST" name="testDestinationLinkOpensNewTab" finished-at="2024-02-16T02:04:21 IST" duration-ms="2040" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDestinationLinkOpensNewTab -->
-        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:SimpleTravelAgency.VerifyHomePage@16293aa2]" started-at="2024-02-16T01:40:37 IST" name="captureScreenshotinFailure" finished-at="2024-02-16T01:40:37 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:SimpleTravelAgency.VerifyHomePage@2a798d51]" started-at="2024-02-16T02:04:21 IST" name="captureScreenshotinFailure" finished-at="2024-02-16T02:04:21 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testDestinationLinkOpensNewTab status=SUCCESS method=VerifyHomePage.testDestinationLinkOpensNewTab()[pri:2, instance:SimpleTravelAgency.VerifyHomePage@16293aa2] output={null}]]]>
+                <![CDATA[[TestResult name=testDestinationLinkOpensNewTab status=SUCCESS method=VerifyHomePage.testDestinationLinkOpensNewTab()[pri:2, instance:SimpleTravelAgency.VerifyHomePage@2a798d51] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureScreenshotinFailure -->
-        <test-method signature="purchaseTicket()[pri:3, instance:SimpleTravelAgency.VerifyHomePage@16293aa2]" started-at="2024-02-16T01:40:37 IST" name="purchaseTicket" finished-at="2024-02-16T01:40:40 IST" duration-ms="3101" status="PASS">
+        <test-method signature="purchaseTicket()[pri:3, instance:SimpleTravelAgency.VerifyHomePage@2a798d51]" started-at="2024-02-16T02:04:21 IST" name="purchaseTicket" finished-at="2024-02-16T02:04:24 IST" duration-ms="2726" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- purchaseTicket -->
-        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:SimpleTravelAgency.VerifyHomePage@16293aa2]" started-at="2024-02-16T01:40:40 IST" name="captureScreenshotinFailure" finished-at="2024-02-16T01:40:40 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:SimpleTravelAgency.VerifyHomePage@2a798d51]" started-at="2024-02-16T02:04:24 IST" name="captureScreenshotinFailure" finished-at="2024-02-16T02:04:24 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=purchaseTicket status=SUCCESS method=VerifyHomePage.purchaseTicket()[pri:3, instance:SimpleTravelAgency.VerifyHomePage@16293aa2] output={null}]]]>
+                <![CDATA[[TestResult name=purchaseTicket status=SUCCESS method=VerifyHomePage.purchaseTicket()[pri:3, instance:SimpleTravelAgency.VerifyHomePage@2a798d51] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureScreenshotinFailure -->
-        <test-method signature="testTotalCostFormat()[pri:4, instance:SimpleTravelAgency.VerifyHomePage@16293aa2]" started-at="2024-02-16T01:40:40 IST" name="testTotalCostFormat" finished-at="2024-02-16T01:40:45 IST" duration-ms="4280" status="PASS">
+        <test-method signature="testTotalCostFormat()[pri:4, instance:SimpleTravelAgency.VerifyHomePage@2a798d51]" started-at="2024-02-16T02:04:24 IST" name="testTotalCostFormat" finished-at="2024-02-16T02:04:25 IST" duration-ms="1221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTotalCostFormat -->
-        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:SimpleTravelAgency.VerifyHomePage@16293aa2]" started-at="2024-02-16T01:40:45 IST" name="captureScreenshotinFailure" finished-at="2024-02-16T01:40:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:SimpleTravelAgency.VerifyHomePage@2a798d51]" started-at="2024-02-16T02:04:25 IST" name="captureScreenshotinFailure" finished-at="2024-02-16T02:04:25 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testTotalCostFormat status=SUCCESS method=VerifyHomePage.testTotalCostFormat()[pri:4, instance:SimpleTravelAgency.VerifyHomePage@16293aa2] output={null}]]]>
+                <![CDATA[[TestResult name=testTotalCostFormat status=SUCCESS method=VerifyHomePage.testTotalCostFormat()[pri:4, instance:SimpleTravelAgency.VerifyHomePage@2a798d51] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureScreenshotinFailure -->
-        <test-method is-config="true" signature="objectClear()[pri:0, instance:SimpleTravelAgency.VerifyHomePage@16293aa2]" started-at="2024-02-16T01:40:45 IST" name="objectClear" finished-at="2024-02-16T01:40:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="objectClear()[pri:0, instance:SimpleTravelAgency.VerifyHomePage@2a798d51]" started-at="2024-02-16T02:04:25 IST" name="objectClear" finished-at="2024-02-16T02:04:25 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objectClear -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SimpleTravelAgency.VerifyHomePage@16293aa2]" started-at="2024-02-16T01:40:45 IST" name="closeBrowser" finished-at="2024-02-16T01:40:45 IST" duration-ms="487" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SimpleTravelAgency.VerifyHomePage@2a798d51]" started-at="2024-02-16T02:04:25 IST" name="closeBrowser" finished-at="2024-02-16T02:04:26 IST" duration-ms="812" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
