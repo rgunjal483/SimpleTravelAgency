@@ -24,7 +24,7 @@ public class ChooseFlightPage {
 	
 	public void chooseLowestPriceFlight() {
         List<WebElement> chooseFlightButtons = driver.findElements(By.cssSelector("input[type='submit'][value='Choose This Flight']"));
-        chooseFlightButtons.get(0).click(); // Assuming the first flight has the lowest price
+        chooseFlightButtons.get(0).click(); 
     }
 	
 	public boolean isPurchasePageDisplayed() {
